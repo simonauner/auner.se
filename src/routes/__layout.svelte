@@ -1,8 +1,8 @@
 <!-- src/routes/__layout.svelte -->
 <nav>
     <a href="/">Start</a>
-    <a href="/cv">CV</a>
-    <a href="/about">About this site</a>
+    <a href="cv">CV</a>
+    <a href="about">About this site</a>
 </nav>
 
 <div>
