@@ -14,8 +14,8 @@ const config = {
 
         adapter: adapter({
             // default options are shown
-            pages: 'pages',
-            assets: 'pages',
+            pages: 'docs',
+            assets: 'docs',
             fallback: null,
         }),
         paths: {
