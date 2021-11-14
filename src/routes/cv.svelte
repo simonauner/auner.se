@@ -1,20 +1,26 @@
 <!-- src/routes/about.svelte -->
 <svelte:head>
-    <title>CV</title>
+    <title>Simon Aunér - CV</title>
 </svelte:head>
 
 <div>
     <h1>CV</h1>
 
+    <p class="contact">
+        Simon Aunér <br />
+        +46 735 81 35 71<br />
+        simonauner@gmail.com
+    </p>
+
     <h2>In short</h2>
     <p>
-        I’ve been in software engineering for since 2010, having worked
-        extensively with front-end applications for the first 10 years. More
-        recently I have been making a move towards back-end development, seeking
-        to broaden my experience and deepen my knowledge within that area. I’ve
-        had responsibilities as lead developer, team manager and technical
-        program manager and tend to take on leadership roles, but my true
-        interest lies in the creativity of technical solutions.
+        I’ve been in software engineering since 2010. Having worked extensively
+        with front-end applications for the first 10 years, I have recently been
+        making a move towards back-end development, seeking to broaden my
+        experience and deepen my knowledge within that area. I’ve had
+        responsibilities as lead developer, team manager and technical program
+        manager and tend to take on leadership roles, but my true interest lies
+        in the creativity of technical solutions.
     </p>
 
     <h2>Experience</h2>
@@ -123,12 +129,22 @@
     h4 {
         text-transform: uppercase;
         color: gray;
-        margin-top: -14px;
-        font-size: 14px;
+        font-size: 0.825rem;
         font-weight: normal;
     }
 
     .secondary {
         font-weight: normal;
+    }
+
+    .contact {
+        text-align: end;
+        display: none;
+    }
+
+    @media print {
+        .contact {
+            display: block;
+        }
     }
 </style>

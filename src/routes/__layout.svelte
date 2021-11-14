@@ -5,12 +5,14 @@
     <a href="/about">About this site</a>
 </nav>
 
-<div>
+<main>
     <slot />
-</div>
+</main>
 
-<div>
-    Contact: <a href="mailto:simonauner@gmail.com">simonauner@gmail.com</a>
+<div class="footer">
+    <p class="author">Simon Aunér <br /> November, 2021</p>
+
+    <a href="mailto:simonauner@gmail.com">simonauner@gmail.com</a>
     |
     <a href="https://linkedin.com/in/simonauner">LinkedIn</a>
     |
@@ -20,19 +22,27 @@
 <style>
     nav,
     div,
-    slot {
-        min-width: 500px;
-        max-width: 800px;
+    main {
+        min-width: 20rem;
+        max-width: 40rem;
         margin-left: auto;
         margin-right: auto;
     }
 
     nav {
-        margin-top: 16px;
-        margin-bottom: 32px;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
     }
-    div {
-        margin-top: 64px;
-        margin-bottom: 16px;
+    .footer {
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    @media print {
+        nav,
+        .footer {
+            visibility: hidden;
+        }
     }
 </style>
