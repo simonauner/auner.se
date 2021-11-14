@@ -11,6 +11,10 @@
 
 <div>
     Contact: <a href="mailto:simonauner@gmail.com">simonauner@gmail.com</a>
+    |
+    <a href="https://linkedin.com/in/simonauner">LinkedIn</a>
+    |
+    <a href="https://github.com/simonauner">GitHub</a>
 </div>
 
 <style>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>simon.auner.se</title>
+
+		
+
+		<link rel="modulepreload" href="/auner.se/_app/start-52e28dc2.js">
+		<link rel="modulepreload" href="/auner.se/_app/chunks/vendor-ebf05703.js">
+		<link rel="modulepreload" href="/auner.se/_app/pages/__layout.svelte-2c48366d.js">
+		<link rel="modulepreload" href="/auner.se/_app/pages/index.svelte-f230a2fe.js">
+		<link rel="stylesheet" href="/auner.se/_app/assets/start-61d1577b.css">
+		<link rel="stylesheet" href="/auner.se/_app/assets/pages/__layout.svelte-111ee28b.css">
+
+		<script type="module">
+			import { start } from "/auner.se/_app/start-52e28dc2.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"/auner.se","assets":""},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/auner.se/_app/pages/__layout.svelte-2c48366d.js"),
+						import("/auner.se/_app/pages/index.svelte-f230a2fe.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "\u002F",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+
+<nav class="svelte-875jly"><a href="/">Start</a>
+    <a href="/cv">CV</a>
+    <a href="/about">About this site</a></nav>
+
+<div class="svelte-875jly">
+
+<h1>Welcome to simon.auner.se</h1>
+<p>This is a work in progress</p></div>
+
+<div class="svelte-875jly">Contact: <a href="mailto:simonauner@gmail.com">simonauner@gmail.com</a>
+</div>
+
+
+
+			
+		</div>
+	</body>
+</html>

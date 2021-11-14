@@ -1,14 +1,64 @@
-<!-- src/routes/about.svelte -->
-<svelte:head>
-    <title>CV</title>
-</svelte:head>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>CV</title>
 
-<div>
-    <h1>CV</h1>
+		
+
+		<link rel="modulepreload" href="/auner.se/_app/start-52e28dc2.js">
+		<link rel="modulepreload" href="/auner.se/_app/chunks/vendor-ebf05703.js">
+		<link rel="modulepreload" href="/auner.se/_app/pages/__layout.svelte-2c48366d.js">
+		<link rel="modulepreload" href="/auner.se/_app/pages/cv.svelte-6c6bbc72.js">
+		<link rel="stylesheet" href="/auner.se/_app/assets/start-61d1577b.css">
+		<link rel="stylesheet" href="/auner.se/_app/assets/pages/__layout.svelte-111ee28b.css">
+		<link rel="stylesheet" href="/auner.se/_app/assets/pages/cv.svelte-a4b068dc.css">
+
+		<script type="module">
+			import { start } from "/auner.se/_app/start-52e28dc2.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"/auner.se","assets":""},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/auner.se/_app/pages/__layout.svelte-2c48366d.js"),
+						import("/auner.se/_app/pages/cv.svelte-6c6bbc72.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "\u002Fcv",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+
+<nav class="svelte-875jly"><a href="/">Start</a>
+    <a href="/cv">CV</a>
+    <a href="/about">About this site</a></nav>
+
+<div class="svelte-875jly">
+
+
+<div><h1>CV</h1>
 
     <h2>In short</h2>
-    <p>
-        I’ve been in software engineering for since 2010, having worked
+    <p>I’ve been in software engineering for since 2010, having worked
         extensively with front-end applications for the first 10 years. More
         recently I have been making a move towards back-end development, seeking
         to broaden my experience and deepen my knowledge within that area. I’ve
@@ -20,76 +70,67 @@
     <h2>Experience</h2>
 
     <h3>BookBeat AB</h3>
-    <h3 class="secondary">Senior software engineer</h3>
-    <h4>JUNE 2019 – PRESENT, STOCKHOLM</h4>
-    <p>
-        BookBeat is an audio streaming service with about 120 employees. I
+    <h3 class="secondary svelte-otiwvx">Senior software engineer</h3>
+    <h4 class="svelte-otiwvx">JUNE 2019 – PRESENT, STOCKHOLM</h4>
+    <p>BookBeat is an audio streaming service with about 120 employees. I
         joined BookBeat to make a journey back towards full-time software
         development, and more specifically to learn more backend. As somewhat of
-        an internal gun-for-hire I've been taking on a multitude of
+        an internal gun-for-hire I&#39;ve been taking on a multitude of
         responsibilities and technologies in different teams. Backend, migration
         to .NET Core, Kubernetes, changing CI tool, lead developer on new
         services and projects, interim team lead, and more. For most of my time
-        here I've been working full-stack with everything from configuration of
+        here I&#39;ve been working full-stack with everything from configuration of
         Traffic Managers in Azure, to database management, backend .NET
         development, frontend for several of internal and external web pages.
         BookBeat has no Ops team so everything is handled by us developers:
         deployments, monitoring, logging and support.
     </p>
-    <p>
-        Technologies used: .NET Core, EF Core, Kubernetes, Docker, Azure
-        Pipelines, Octopus Deploy, React, Redux, MobX, Next.js, Express.js,
-        Azure Service bus, Azure Storage bus, Helm, New Relic, MSSQL, RavenDB,
-        Azure TableStorage, Azure CosmosDB, Jest, Playwright, xUnit, NUnit
+    <p>Technologies used: .NET Core, EF Core, Kubernetes, Docker, Azure
+        Pipelines, Octopus Deploy, React, Azure Service bus, Azure Storage bus,
+        Helm, New Relic, MSSQL, RavenDB, Azure TableStorage, Azure CosmosDB,
+        Jest, Playwright, xUnit, NUnit
     </p>
 
     <h3>Gametek AB (former Mr Green Technology AB)</h3>
-    <h3 class="secondary">Technical program manager</h3>
-    <h4>AUGUST 2018 - MAY 2019, STOCKHOLM</h4>
+    <h3 class="secondary svelte-otiwvx">Technical program manager</h3>
+    <h4 class="svelte-otiwvx">AUGUST 2018 - MAY 2019, STOCKHOLM</h4>
 
-    <p>
-        I got the chance to work in the Gametek management team as a technical
+    <p>I got the chance to work in the Gametek management team as a technical
         program manager. My responsibilities were to plan how to advance the
         technical platform together with all tech leads and product owners in
         the organization, to make sure that we could meet future business
         demands while delivering a technologically top-of-the-line platform.
     </p>
 
-    <h3 class="secondary">Lead front-end developer</h3>
-    <h4>JULY 2015 - JULY 2018, Stockholm</h4>
+    <h3 class="secondary svelte-otiwvx">Lead front-end developer</h3>
+    <h4 class="svelte-otiwvx">JULY 2015 - JULY 2018, Stockholm</h4>
 
-    <p>
-        I joined Mr Green Technology as an employee and front-end lead
+    <p>I joined Mr Green Technology as an employee and front-end lead
         developer, being responsible for delivering the new SPA mobile-first
         web. In this position I focused a lot on making the delivery process
         fast - focusing on testing, code quality and code reusability.
-    </p>
-    <p>
         Technologies used: JavaScript, AngularJS, TeamCity, Docker, CSS3,
         Node.js, Karma, Jasmine
     </p>
 
-    <h3 class="secondary">Front-end developer</h3>
-    <h4>FEBRUARY 2014 - JUNE 2015, STOCKHOLM</h4>
+    <h3 class="secondary svelte-otiwvx">Front-end developer</h3>
+    <h4 class="svelte-otiwvx">FEBRUARY 2014 - JUNE 2015, STOCKHOLM</h4>
 
-    <p>
-        Mr Green Technology is the development department of online casino Mr
+    <p>Mr Green Technology is the development department of online casino Mr
         Green, at the time around 30 employees. After parental leave I joined Mr
         Green Technology as a frontend developer consultant. I worked with both
         the front-end and back-end for the mobile web. Shortly after, I was
         transferred to a new team spear-heading a new SPA frontend that was to
         replace both the desktop and mobile web pages.
     </p>
-    <p>
-        Technologies used: JavaScript, jQuery Mobile, C#.NET, TeamCity,
+    <p>Technologies used: JavaScript, jQuery Mobile, C#.NET, TeamCity,
         AngularJS
     </p>
 
     <h3>Net Entertainment AB (via Netlight Consulting AB)</h3>
-    <h3 class="secondary">Lead front-end developer</h3>
-    <h4>APRIL 2011 - MAY 2013, STOCKHOLM</h4>
-    <p>
-        Net Entertainment is a highly successful gambling company, at the time
+    <h3 class="secondary svelte-otiwvx">Lead front-end developer</h3>
+    <h4 class="svelte-otiwvx">APRIL 2011 - MAY 2013, STOCKHOLM</h4>
+    <p>Net Entertainment is a highly successful gambling company, at the time
         around 150 employees in the tech department. In 2011 all of NetEnt’s
         games were based on Flash, but mobile gaming was growing fast and it was
         clear that Flash was never going to work on iPhones, thus NetEnt set out
@@ -107,28 +148,23 @@
     <p>Technologies used: JavaScript, CSS3, HTML5, Maven, Jenkins</p>
 
     <h3>Fido Film AB AB (now FTrack)</h3>
-    <h3 class="secondary">Software engineer</h3>
-    <h4>NOVEMBER 2010 - APRIL 2011, STOCKHOLM</h4>
-    <p>
-        My first job! It was hard to imagine I would be of any use when leaving
+    <h3 class="secondary svelte-otiwvx">Software engineer</h3>
+    <h4 class="svelte-otiwvx">NOVEMBER 2010 - APRIL 2011, STOCKHOLM</h4>
+    <p>My first job! It was hard to imagine I would be of any use when leaving
         university... All those years and all those studies, yet it felt as if
         we had nothing tangible to bring to an actual workplace! I worked at a
         special effects studio who were building their own Project and Asset
         Management tool. Frontend and backend.
     </p>
     <p>Technologies used: JavasScript ExtJS, Python, Jenkins</p>
+</div></div>
+
+<div class="svelte-875jly">Contact: <a href="mailto:simonauner@gmail.com">simonauner@gmail.com</a>
 </div>
 
-<style>
-    h4 {
-        text-transform: uppercase;
-        color: gray;
-        margin-top: -14px;
-        font-size: 14px;
-        font-weight: normal;
-    }
 
-    .secondary {
-        font-weight: normal;
-    }
-</style>
+
+			
+		</div>
+	</body>
+</html>
