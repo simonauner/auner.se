@@ -9,7 +9,7 @@
 
     @media (min-width: 476px) {
         .subtitle {
-            font-size: 3.1rem;
+            font-size: 1.9rem;
         }
     }
 
@@ -21,7 +21,7 @@
 
     @media (min-width: 1200px) {
         .subtitle {
-            font-size: 5.66rem;
+            font-size: 4.7rem;
         }
     }
 
